@@ -1,0 +1,22 @@
+{
+  "name": "landing_live_streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andival-Sei/landing_live_streaming.git"
+  },
+  "author": "Andival-Sei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andival-Sei/landing_live_streaming/issues"
+  },
+  "homepage": "https://github.com/Andival-Sei/landing_live_streaming#readme",
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}
