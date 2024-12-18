@@ -1,3 +1,4 @@
+// Миксин для центровки элементов flex
 @mixin d-flex($justify: center, $align: center, $wrap: nowrap, $direction: row, $column-gap: 0, $row-gap: 0) {
 	display: flex;
 	justify-content: $justify;
@@ -8,6 +9,7 @@
 	row-gap: $row-gap;
 }
 
+// Миксин для создания контейнера
 @mixin position($type: relative, $zIndex: 1, $inset: -1, $top-or-bottom: top, $left-or-right: left, $value1: 0, $value2: 0) {
 	position: $type;
 	z-index: $zIndex;
@@ -22,6 +24,7 @@
 	}
 }
 
+// Миксин для скрытия элемента
 @mixin font($size: 16, $weight: 400, $color: #fff, $style: normal) {
 	font: {
 		size: $size;

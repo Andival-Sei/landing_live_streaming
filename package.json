@@ -1,8 +1,13 @@
 {
+  // Имя пакета
   "name": "landing_live_streaming",
+  // Версия пакета
   "version": "1.0.0",
+  // Описание проекта
   "description": "landing page",
+  // Главный файл приложения
   "source": "index.html",
+  // Сценарии npm
   "scripts": {
     "sass:watch": "sass --style=expanded --watch styles:dist",
     "parcel:watch": "parcel serve --dist-dir public",
@@ -12,12 +17,15 @@
     "type": "git",
     "url": "git+https://github.com/Andival-Sei/landing_live_streaming.git"
   },
+  // Автор проекта
   "author": "Andival-Sei",
+  // Лицензия проекта
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Andival-Sei/landing_live_streaming/issues"
   },
   "homepage": "https://github.com/Andival-Sei/landing_live_streaming#readme",
+  // Зависимости для разработки
   "devDependencies": {
     "parcel": "^2.13.3",
     "sass": "^1.83.0",

@@ -1,7 +1,16 @@
+// Импортируем переменные
 @forward 'basic';
+
+// Импортируем миксины
 @forward 'cards';
+
+// Импортируем базовые стили
 @forward 'header';
+
+// Импортируем стили для шапки
 @forward 'hero';
+
+// Импортируем остальные стили
 @forward 'work';
 @forward 'about';
 @forward 'experience';
