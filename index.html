@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="dist/index.css" />
     <title>Live Streaming</title>
   </head>
+
   <body>
     <header class="header" aria-label="header">
       <div class="container">
@@ -48,5 +49,442 @@
         </nav>
       </div>
     </header>
+
+    <div class="mobile-navigation">
+      <label for="checkboxID" class="mobile-navigation__burger">
+        <svg class="mobile-navigation__burger-icon" aria-label="burger icon">
+          <use href="assets/sprites.svg#burger-icon"></use>
+        </svg>
+      </label>
+
+      <input
+        id="checkboxID"
+        type="checkbox"
+        class="mobile-navigation__toggler"
+      />
+
+      <nav class="mobile-navigation__menu nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a
+              href="#work"
+              class="nav__list-item-link"
+              onclick="window.location.reload(true);"
+              >How we work</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a
+              href="#about"
+              class="nav__list-item-link"
+              onclick="window.location.reload(true);"
+              >About us</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a
+              href="#experience"
+              class="nav__list-item-link"
+              onclick="window.location.reload(true);"
+              >Our experience</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a
+              href="#testimonials"
+              class="nav__list-item-link"
+              onclick="window.location.reload(true);"
+              >Testimonials</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a
+              href="#formSection"
+              class="nav__list-item-link"
+              onclick="window.location.reload(true);"
+              >Form</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a
+              href="#contacts"
+              class="nav__list-item-link"
+              onclick="window.location.reload(true);"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+
+        <label for="checkboxID" class="nav__close">
+          <svg class="nav__close-icon" aria-label="close icon">
+            <use href="assets/sprites.svg#cross-icon"></use>
+          </svg>
+        </label>
+      </nav>
+    </div>
+
+    <main aria-label="main content">
+      <section class="hero-section" aria-label="hero section">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__content">
+              <h1 class="hero__title">WHEN PERFORMANCE MATTERS</h1>
+              <button class="hero__action-btn">
+                Start development with us!
+              </button>
+            </div>
+
+            <div class="hero__notify">
+              <img
+                src="assets/img/pigeon_alpha.png"
+                alt="pigeon img"
+                class="hero__notify-img"
+              />
+              <p class="hero__notify-content">
+                WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. THROUGH YOUR
+                CONTINUED USE OF THIS SITE YOU ACCEPT THIS USE. FOR MORE
+                INFORMATION, PLEASE SEE OUR PRIVACY POLICY.
+              </p>
+              <button class="hero__notify-btn">accept</button>
+            </div>
+
+            <div class="hero__scroll">
+              <span class="hero__scroll-content"> Scroll down </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="container">
+          <div class="work">
+            <h2 class="work__title">How we work</h2>
+
+            <div class="work__cards-wrapper">
+              <figure
+                class="info-card card--analysis"
+                aria-label="card analysis"
+              >
+                <svg class="info-card__icon icon--bulb" aria-label="bulb img">
+                  <use href="assets/sprites.svg#bulb-icon"></use>
+                </svg>
+                <h3 class="info-card__title">Analysis</h3>
+                <p class="info-card__desc">
+                  Gathering client's ideas we are happy to help with a technical
+                  vision.
+                </p>
+              </figure>
+
+              <figure class="info-card card--design" aria-label="card design">
+                <svg
+                  class="info-card__icon icon--design"
+                  aria-label="design img"
+                >
+                  <use href="assets/sprites.svg#design-icon"></use>
+                </svg>
+                <h3 class="info-card__title">Design</h3>
+                <p class="info-card__desc">
+                  In-depth analysis makes our solutions flexible, scalable and
+                  robust.
+                </p>
+              </figure>
+
+              <figure class="info-card card--dev" aria-label="dev card">
+                <svg class="info-card__icon icon--dev" aria-label="dev img">
+                  <use href="assets/sprites.svg#dev-icon"></use>
+                </svg>
+                <h3 class="info-card__title">Development</h3>
+                <p class="info-card__desc">
+                  Using best practices to make reliable, well-documented and
+                  easy to maintain system.
+                </p>
+              </figure>
+
+              <figure
+                class="info-card card--maintenance"
+                aria-label="maintenance card"
+              >
+                <svg
+                  class="info-card__icon icon--maintenance"
+                  aria-label="maintenance img"
+                >
+                  <use href="assets/sprites.svg#maintenance-icon"></use>
+                </svg>
+                <h3 class="info-card__title">Maintenance</h3>
+                <p class="info-card__desc">
+                  Using best practices to make reliable, well-documented and
+                  easy to maintain system.
+                </p>
+              </figure>
+
+              <figure class="info-card card--testing" aria-label="testing card">
+                <svg
+                  class="info-card__icon icon--testing"
+                  aria-label="testing img"
+                >
+                  <use href="assets/sprites.svg#testing-icon"></use>
+                </svg>
+                <h3 class="info-card__title">Testing</h3>
+                <p class="info-card__desc">
+                  Providing best quality of things developed by us for
+                  customers.
+                </p>
+              </figure>
+
+              <figure
+                class="info-card card--integration"
+                aria-label="integration card"
+              >
+                <svg
+                  class="info-card__icon icon--integration"
+                  aria-label="integration img"
+                >
+                  <use href="assets/sprites.svg#integration-icon"></use>
+                </svg>
+                <h3 class="info-card__title">Integration</h3>
+                <p class="info-card__desc">
+                  Solutions that go with the times to improve businesses and
+                  give customers best experience.
+                </p>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about">
+            <div class="about__quality">
+              <h3 class="about__quality-title">High Quality</h3>
+              <p class="about__quality-desc">
+                We are the leading firm by delivering quality and value to our
+                clients. All our professionals have huge experience of creating
+                comfortable high-quality software. We like what we do.
+              </p>
+            </div>
+
+            <div class="about__touch">
+              <h3 class="about__touch-title">Always in touch</h3>
+              <p class="about__touch-desc">
+                We are always ready to answer your questions.
+                <br />You can call us at the weekends and at night. <br />Also
+                you can have a meeting for personal consultation.
+              </p>
+            </div>
+
+            <div class="about__approach">
+              <h3 class="about__approach-title">Individual Approach</h3>
+              <p class="about__approach-desc">
+                Our company works according to the principle of individual
+                approach to every client.
+                <br />This method lets us to get success in problems of all
+                levels.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="experience-section"
+        aria-label="experience section"
+        id="experience"
+      >
+        <div class="container">
+          <div class="experience">
+            <h2 class="experience__title">Our experience</h2>
+
+            <div class="experience__cards-wrapper">
+              <figure class="img-card">
+                <h3 class="img-card__title">Serverless Live Streaming</h3>
+                <img
+                  src="assets/img/card_shooting.webp"
+                  alt="card_shooting img"
+                  class="img-card__preview"
+                />
+                <button class="img-card__btn">
+                  <svg class="img-card__btn-icon" aria-label="arrow icon">
+                    <use href="assets/sprites.svg#arrow-icon"></use>
+                  </svg>
+                </button>
+              </figure>
+
+              <figure class="img-card">
+                <h3 class="img-card__title">
+                  <span>Learn about CloudFlex</span>
+                  <span>team cases</span>
+                </h3>
+                <img
+                  src="assets/img/card_working.webp"
+                  alt="card_working img"
+                  class="img-card__preview"
+                />
+                <button class="img-card__btn">
+                  <svg class="img-card__btn-icon" aria-label="arrow icon">
+                    <use href="assets/sprites.svg#arrow-icon"></use>
+                  </svg>
+                </button>
+              </figure>
+
+              <figure class="img-card">
+                <h3 class="img-card__title">Serverless Live Streaming</h3>
+                <img
+                  src="assets/img/card_streaming.webp"
+                  alt="card_streaming img"
+                  class="img-card__preview"
+                />
+                <button class="img-card__btn">
+                  <svg class="img-card__btn-icon" aria-label="arrow icon">
+                    <use href="assets/sprites.svg#arrow-icon"></use>
+                  </svg>
+                </button>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="testimonials-section"
+        aria-label="testimonials section"
+        id="testimonials"
+      >
+        <div class="container">
+          <div class="testimonials">
+            <h2 class="testimonials__title">Testimonials</h2>
+
+            <div class="testimonials__slider slider">
+              <figure class="wave-card">
+                <img
+                  src="assets/img/avatar_alpha.png"
+                  alt=""
+                  class="wave-card__avatar"
+                />
+
+                <blockquote
+                  class="wave-card__quote"
+                  cite="https://happyclient.com"
+                >
+                  <p>
+                    Очень хороший отзыв, который оставил довольный клиент. А тут
+                    я ещё не придумал что написать, поэтому просто добавил это
+                    предложение.
+                  </p>
+                </blockquote>
+              </figure>
+
+              <button class="slider__left-btn">
+                <svg class="slider__left-btn-icon" aria-label="arrow icon">
+                  <use href="assets/sprites.svg#arrow-icon"></use>
+                </svg>
+              </button>
+
+              <button class="slider__right-btn">
+                <svg class="slider__right-btn-icon" aria-label="arrow icon">
+                  <use href="assets/sprites.svg#arrow-icon"></use>
+                </svg>
+              </button>
+
+              <div class="slider__points">
+                <div class="slider__points-item"></div>
+                <div class="slider__points-item"></div>
+                <div class="slider__points-item"></div>
+                <div class="slider__points-item"></div>
+                <div class="slider__points-item"></div>
+                <div class="slider__points-item"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section" aria-label="form section" id="formSection">
+        <div class="container">
+          <div class="form-section__wrapper">
+            <form
+              action="mailto:streaming_compony@mail.ru"
+              class="form"
+              aria-labelledby="form-title"
+            >
+              <label for="input-name" id="form-title" class="form__title"
+                >Ready to get started? Drop us a line!</label
+              >
+              <input
+                id="input-name"
+                type="text"
+                placeholder="Name"
+                class="form__name"
+                name="firstName"
+                aria-required="true"
+                required
+                autocomplete="name"
+              />
+              <input
+                id="input-email"
+                type="email"
+                placeholder="Email"
+                class="form__email"
+                name="email"
+                aria-required="true"
+                required
+                autocomplete="off"
+              />
+              <input
+                id="input-text"
+                type="text"
+                placeholder="What we can do for you?"
+                class="form__text"
+                name="question"
+                aria-required="true"
+                required
+              />
+
+              <button type="submit" class="form__submit-btn">Send</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="form-section__bg-cloud cloud--left"></div>
+        <div class="form-section__bg-cloud cloud--right"></div>
+      </section>
+    </main>
+
+    <footer class="footer-section" aria-label="contacts section" id="contacts">
+      <div class="container">
+        <div class="footer">
+          <div class="footer__terms">
+            <div class="footer__terms-links">
+              <a href="#" class="footer__terms-link"> Terms of Use </a>
+              <a href="#" class="footer__terms-link"> Privacy Policy </a>
+            </div>
+
+            <div class="footer__terms-rights">
+              © CloudFlex 2024. All Rights Reserved.
+            </div>
+          </div>
+
+          <address class="footer__contacts">
+            <a href="https://linkedin.com" target="_blank">
+              <svg class="footer__contacts-icon" aria-label="linkedin icon">
+                <use href="assets/sprites.svg#linkedin-icon"></use>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <svg class="footer__contacts-icon" aria-label="facebook icon">
+                <use href="assets/sprites.svg#facebook-icon"></use>
+              </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <svg class="footer__contacts-icon" aria-label="instagram icon">
+                <use href="assets/sprites.svg#instagram-icon"></use>
+              </svg>
+            </a>
+          </address>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
