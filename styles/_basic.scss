@@ -7,3 +7,22 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+h1,h2,h3,h4,h5,h6, ul, p, button {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+}
