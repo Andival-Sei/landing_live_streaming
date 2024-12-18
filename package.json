@@ -4,7 +4,9 @@
   "description": "landing page",
   "source": "index.html",
   "scripts": {
-    "sass:watch": "sass --style=expanded --watch styles:dist"
+    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "parcel:watch": "parcel serve --dist-dir public",
+    "parcel:build": "parcel build --dist-dir build --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/Andival-Sei/landing_live_streaming#readme",
   "devDependencies": {
-    "sass": "^1.83.0"
+    "parcel": "^2.13.3",
+    "sass": "^1.83.0",
+    "svgo": "^3.3.2"
   }
 }
